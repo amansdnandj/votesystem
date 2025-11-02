@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build
+frontend/.env*.local
+frontend/.vercel
+
+# Production
+frontend/dist/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Hardhat
+backend/cache/
+backend/artifacts/
+backend/deployments/
+backend/fhevmTemp/
+backend/typechain-types/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build outputs
+out/
+dist/
+build/
+
