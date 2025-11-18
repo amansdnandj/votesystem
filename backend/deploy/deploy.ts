@@ -5,6 +5,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { deployer } = await hre.getNamedAccounts();
   const { deploy } = hre.deployments;
 
+  // Deploy the VotingSystem contract with FHEVM support
   const deployedVotingSystem = await deploy("VotingSystem", {
     from: deployer,
     log: true,
