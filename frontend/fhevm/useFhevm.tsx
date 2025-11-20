@@ -17,7 +17,7 @@ export function useFhevm(parameters: {
   provider: string | ethers.Eip1193Provider | undefined;
   chainId: number | undefined;
   enabled?: boolean;
-  initialMockChains?: Readonly<Record<number, string>>;  
+  initialMockChains?: Readonly<Record<number, string>>;
 }): {
   instance: FhevmInstance | undefined;
   refresh: () => void;
