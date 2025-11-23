@@ -43,7 +43,7 @@ export const VotingSystemDemo = () => {
     sameSigner,
   });
 
-  // State variables
+  // State variables for voting and proposal management
   const [voteChoice, setVoteChoice] = useState<number>(1);
   const [proposalDescription, setProposalDescription] = useState<string>("");
   const [proposalDuration, setProposalDuration] = useState<string>("1");

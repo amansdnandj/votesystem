@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "Voting System - Privacy-Preserving On-Chain Governance",
-  description: "A privacy-preserving voting system built with Zama FHEVM",
+  description: "A privacy-preserving voting system built with Zama FHEVM for secure and private on-chain voting",
 };
 
 export default async function RootLayout({
