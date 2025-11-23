@@ -13,6 +13,8 @@ contract VotingSystem is SepoliaConfig {
         euint32 choice;  // Encrypted choice (1, 2, or 3)
         euint32 weight;  // Encrypted weight (token amount)
     }
+    
+    // Note: All vote data is encrypted using FHEVM for privacy preservation
 
     // Store votes for each proposal
     mapping(uint256 => Vote[]) public votes;
